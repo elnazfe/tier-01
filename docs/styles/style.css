@@ -1,0 +1,49 @@
+body {
+  padding: 0;
+  text-align: center;
+}
+
+#game-intro {
+  background-color: #1d12eb;
+  width: 1400px;
+  height: 600px;
+  /* padding: 20px 0px; */
+  border: 0;
+  box-shadow: 0;
+  border-radius: 5px;
+  margin-top: 1.5%;
+  opacity: 90%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.instruction {
+  font-size: 28px;
+  font-family: 'DePixel', sans-serif;
+  color: white;
+  padding: 0 300px;
+}
+
+.logo-img {
+  width: 350px;
+}
+
+.arrows-img {
+  width: 150px;
+}
+
+#start {
+  display: inline-block;
+  width: 300px;
+  height: 95px;
+  background-image: url("https://i.ibb.co/Jd32jjw/starts.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -9999px; /* Hides the text content of the button */
+  border: none;
+}
+
+#game-board {
+  padding: 20px 0px;
+}
